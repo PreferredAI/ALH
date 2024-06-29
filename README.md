@@ -1,3 +1,12 @@
+# Bibtext
+```
+@inproceedings{quangaugmenting,
+  title={Augmenting Decision with Hypothesis in Reinforcement Learning},
+  author={Quang, Nguyen Minh and Lauw, Hady W},
+  booktitle={Forty-first International Conference on Machine Learning}
+}
+```
+
 # Setup
 (Linux only)
 Create `test_env` environment by either:
