@@ -1,9 +1,19 @@
-# Bibtext
+# BibTex
 ```
-@inproceedings{quangaugmenting,
-  title={Augmenting Decision with Hypothesis in Reinforcement Learning},
-  author={Quang, Nguyen Minh and Lauw, Hady W},
-  booktitle={Forty-first International Conference on Machine Learning}
+@InProceedings{pmlr-v235-quang24a,
+  title = 	 {Augmenting Decision with Hypothesis in Reinforcement Learning},
+  author =       {Quang, Nguyen Minh and Lauw, Hady W.},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {41804--41820},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/quang24a/quang24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/quang24a.html},
+  abstract = 	 {Value-based reinforcement learning is the current State-Of-The-Art due to high sampling efficiency. However, our study shows it suffers from low exploitation in early training period and bias sensitiveness. To address these issues, we propose to augment the decision-making process with hypothesis, a weak form of environment description. Our approach relies on prompting the learning agent with accurate hypotheses, and designing a ready-to-adapt policy through incremental learning. We propose the ALH algorithm, showing detailed analyses on a typical learning scheme and a diverse set of Mujoco benchmarks. Our algorithm produces a significant improvement over value-based learning algorithms and other strong baselines. Our code is available at Github URL.}
 }
 ```
 
